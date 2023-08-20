@@ -1,0 +1,174 @@
+body {
+	padding-top: 56px;
+} 
+
+body.home {
+	color: #5a5a5a;
+} 
+  		
+ .container, .container-fluid {
+  	margin-bottom : 4rem;
+ 	} 
+ 
+ /* Kop Title */ 		
+div.kopfitur {
+	background-color: #1E90FF;
+ height : 56px;
+ width : 200px;
+ line-height : 56px;  			
+}
+  		
+.shadowt {
+  	border-bottom : 3px solid #1E90FF;
+}
+  		
+div.text-center hr.p-0 {
+ width : 80%;
+	border-bottom : 4px solid		
+	}
+  		
+div.offset-sm-3 svg{
+ 	margin-top : -17px;	 	
+}
+ 
+ /*footer style*/ 		
+footer {
+  color : white;
+  font-size : 96%;
+  width : 100%;
+}
+  	/* ICON */
+.bi::before { 
+ 		display: inline-block; 
+  	content: ""; 
+ 		background-image: url("data:image/svg+xml,<svg viewBox='0 0 16 16' fill='%23333' xmlns='http://www.w3.org/2000/svg'><path fill-rule='evenodd' d='M8 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z' clip-rule='evenodd'/></svg>"); 
+  	background-repeat: no-repeat; 
+ 		background-size: 1rem 1rem;
+}
+
+
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-sm-3 {
+  padding : 2rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 3rem 0 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -.05rem;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}
+
+
+/*PENDAFTARAN STYLE --------------------------------*/
+ textarea {
+  	width : 100%;
+ }
+  		
+ img.small {
+  	height : 148px;
+ }  		
+ 
+ 
+ /*KARTU PESERTA STYLE --------------------------------*/
+ main.kartu_peserta {
+ 		margin-top: 100px;
+		height : 1000px;
+	}	
+	
+/*Selebihnya telah dipindahkan di fitur admin.css */
+
+.carousel::after{
+	content: '';
+	display: block;
+	width: 100%;
+	height: 100%;
+	background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0));
+	position: absolute;
+	bottom: 0;
+}
+
+div.colum-informasi div.col-md-3 div.border{
+	height: 280px;
+}
+
+/*LAMAN PENGUMUMAN*/
+@media(max-width: 576px){
+	div#laman-pengumuman h2{
+		font-size: 20px;
+	}
+
+	div#laman-pengumuman .foto-400px{
+		text-align: center;
+	}
+
+	div#laman-pengumuman .biodata-400px .col-sm-1{
+		width: 8%;
+	}
+
+	div#laman-pengumuman .biodata-400px .col-sm-4{
+		width: 33%;
+	}
+
+	div#laman-pengumuman .biodata-400px .col-sm-7{
+		width: 57%;
+	}
+
+
+	div#laman-pengumuman .row .col-sm-5 h5{
+		text-align: left;
+		padding-top: 8px;
+	}
+}					
+
+/*komfirmasi-data-peserta*/
+@media(max-width: 576px){
+	div#komfirmasi-data-peserta .row .col-sm-5 h5{
+		text-align: left;
+	}
+
+	div#komfirmasi-data-peserta .row .col-sm-7 h5{
+		text-align: left;
+		padding-bottom: 9px;
+		font-weight: bold;
+	}
+}	
+
+
+
+
+
+

@@ -1,0 +1,334 @@
+/* floating-labels (login)
+--------------------------------------------------
+------------------------------------------------- */
+
+.form-signin {
+  width: 100%;
+  max-width: 420px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+  height: 3.125rem;
+  padding: .75rem;
+}
+
+.form-label-group > label {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  margin-bottom: 0; /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  pointer-events: none;
+  cursor: text; /* Match the input under the label */
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding-top: 1.25rem;
+  padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+  padding-top: .25rem;
+  padding-bottom: .25rem;
+  font-size: 12px;
+  color: #777;
+}
+
+form div p.akun {
+	color : DodgerBlue;
+}
+
+/* Fallback for Edge
+-------- */
+@supports (-ms-ime-align: auto) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+--------------*/
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+  .form-label-group > label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Lihat Sandi
+--------------*/
+svg.eyep {
+	padding-bottom: 15px;
+	padding-left: 5px;
+}
+
+svg.bi-eye-slash {
+	display: none;
+}
+
+.pasword-lihat {
+	display: inline;
+	width: 87%;
+  }
+
+
+/* CV-Peserta
+--------------------------------------------------
+------------------------------------------------- */
+
+main.cv_peserta {
+	height : 1100px;
+	margin-top : 25px;
+	margin-bottom : 50px;
+	background-color : #fff;
+	width: 97%;
+}	
+			
+			
+hr.a {
+		width : 90%;
+		border-bottom : 4px solid;
+	}
+	
+hr.b {
+	width : 90%;
+	border-top : 1px solid;
+}
+	
+	
+img.background{
+	height : 500px;
+	left: 110px;
+	top: 310px;
+	opacity : 0.05;
+}		
+
+section.position-relative {
+	z-index : 99;
+}
+	
+				
+	/* Album Profil
+--------------------------------------------------
+------------------------------------------------- */			
+	
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+p.card-text {
+	height : 230px;
+}
+
+
+/* Kartu-Peserta
+--------------------------------------------------
+------------------------------------------------- */
+
+.kartu_peserta {
+	height : 1000px;
+	margin-top : 35px;
+	margin-bottom : 50px;
+	background-color : #fff;
+}	
+			
+hr.a {
+		width : 90%;
+		border-bottom : 4px solid;
+	}
+				
+	hr.b {
+		width : 90%;
+		border-top : 1px solid;
+	}
+				
+	div hr.my-0.py-0 {
+		width : 220px;
+		border-top : 3px solid;
+	}
+				
+	.border-right.border-danger {
+		height : 80px;
+	}
+				
+	section.section1 {
+		width : 85%;
+	}
+				
+	h6.alamat {
+		font-size: 9pt;
+	}
+	
+	div#kartu-peserta {
+		z-index : 9999;
+		width : 100%;
+	}
+
+	@media(max-width: 500px){
+		footer.footers{
+			width : 690px!important;
+		}
+	}
+
+
+/* file-pengumuman
+--------------------------------------------------
+------------------------------------------------- */
+
+main.file_pengumuman {
+	padding-bottom : 200px;
+	margin-bottom : 50px;
+	background-color : #fff;
+	font-family: "Times New Roman", Times, serif;
+	color: 000;
+	width: 97%;
+	}	
+			
+div.lampiran {
+	text-align: justify;
+	font-size: 85%;
+}
+
+hr.c {
+		width : 95%;
+		border-bottom : 4px solid;
+	}
+	
+	table tr {	
+		text-align:center;
+	}	
+
+table tr.thhead {	
+		height:60px; 
+		text-align:center;
+	}	
+	
+	table.file_pengumuman {
+		width:700px;
+	}
+	
+	table tr.thbody {	
+		font-size: 80%;
+		height: 80px; 
+	}	
+	
+	th.kuliah {
+		width:80px;
+	}
+	
+	th.tanggal{
+		width:80px;
+	}
+	
+	th.no_peserta{
+		width:80px;
+	}
+	
+	th.ket{
+		width:40px;
+	}
+
+
+
+/* Dashbord Card databses & pengyumuman
+--------------------------------------------------
+------------------------------------------------- */
+/*databases */
+.total {
+	font-weight: bold;
+	}
+
+svg.icon-svg-dtb {
+	position : absolute;
+	top : 85px;
+	left : 200px;
+	opacity : 0.6;
+}
+
+/*pengumuman */
+svg.icon-svg-pengu {
+	position : absolute;
+	top : 110px;
+	left : 200px;
+	opacity : 0.6;
+}
+
+/*Biaya Pendidikan
+.........................*/
+table.table-bordered.b-kuliah tr th{
+	border: 1px solid black;
+}
+
+
+
+@media(max-width: 500px){
+	/*FOOTER SPP dan KOP BP*/
+	div.bp, footer.footersS{
+		width : 550px!important;
+	}
+
+	/*PS Title*/
+	#ps h2{
+		font-size: 27px;
+	}
+}
